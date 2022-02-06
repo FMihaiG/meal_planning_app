@@ -1,10 +1,10 @@
 # Create server
 myServer = function(input,output,session){
   # source codes
-  source('C:/R_work/Meal_app_PROD/myFilters.R', local = TRUE)
-  source('C:/R_work/Meal_app_PROD/myText.R', local = TRUE)
-  source('C:/R_work/Meal_app_PROD/myTables.R', local = TRUE)
-  source('C:/R_work/Meal_app_PROD/features.R', local = TRUE)
+  source('/srv/shiny-server/meal_planning_app/myFilters.R', local = TRUE)
+  source('/srv/shiny-server/meal_planning_app/myText.R', local = TRUE)
+  source('/srv/shiny-server/meal_planning_app/myTables.R', local = TRUE)
+  source('/srv/shiny-server/meal_planning_app/features.R', local = TRUE)
   
   # baseline plan
   foodDatabase = reactiveValues()
