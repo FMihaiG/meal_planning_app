@@ -13,7 +13,7 @@ rm(list=ls())
 
 # PRODUCTION
 
-path_storage = "/srv/shiny-server/meal_planning_app/"
+path_storage = "/srv/shiny-server/meal_planning_app/Local storage/"
 
 # Source ui and server
 source('C:/R_work/Meal_app_PROD/myUI.R', local = TRUE)
