@@ -41,7 +41,6 @@ sidebar = dashboardSidebar(
 # -------------- Body --------------
 
 body = dashboardBody(
-  useShinyalert(),
   tabItems(
     tabItem(tabName = "menu_item_meal_plan",
             fluidPage(
