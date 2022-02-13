@@ -1,7 +1,7 @@
 library(shiny)
 library(xlsx)
 library(ggplot2)
-library(plotly)
+# library(plotly)
 library(reshape)
 library(dplyr)
 library(DT)
