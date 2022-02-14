@@ -79,6 +79,7 @@ feature_reset_plan = observeEvent(input$action_reset_plan,{
     dayMealPlan$Tuesday = dayMealPlan$Tuesday %>%
       slice(0)
     # saveRDS(dayMealPlan$Tuesday,paste0(path_storage,"dayPlan_dev_2.rds"))
+    saveRDS(dayMealPlan$Tuesday,"/home/MihaiG/temp_storage/dayPlan_dev_2.rds")
   }else if(input$tabs_panel_meal_plan == "Wednesday"){
     dayMealPlan$Wednesday = dayMealPlan$Wednesday %>%
       slice(0)
