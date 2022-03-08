@@ -1,7 +1,7 @@
 library(shiny)
 library(xlsx)
 library(ggplot2)
-library(reshape)
+library(reshapeC)
 library(dplyr)
 library(DT)
 library(shinythemes)
